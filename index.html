@@ -3,37 +3,33 @@
   <head>
     <title>Site</title>
     <style>
-      *{
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      }
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #063618;
+
+      * {
+        margin: 0;
+        box-sizing: border-box;
       }
 
-      h1 {
-        color: green;
+      body {
+        background: #063618;
+        height: 100vh;
+        display: grid;
+        place-items: center;
       }
-      #btn{
-        margin: 5px;
-        background-color: rgb(11, 236, 11);
+
+      button {
+        background: rgb(11, 236, 11);
         border: none;
         padding: 15px 50px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
         font-size: 20px;
         border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        box-shadow: 5px 5px 0 black;
       }
 
     </style>
   </head>
   <body>
-    <button id="btn">Hello World</button>
+    <button>Hello World</button>
   </body>
 </html>
